@@ -1,0 +1,61 @@
+# General Files
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.swp
+*.swo
+*.bak
+*.class
+*.jar
+*.war
+*.iml
+.idea/
+.vscode/
+
+# Virtual Environment
+venv/
+
+# Backend (FastAPI)
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+pip-log.txt
+pip-delete-this-directory.txt
+.env
+.env.local
+.env.*.local
+poetry.lock
+Pipfile.lock
+
+# Android (Android Studio)
+.gradle/
+/build/
+**/build/
+/local.properties
+*.iml
+*.apk
+*.ap_
+*.aab
+*.idea/
+*.classpath
+*.project
+*.settings/
+*.externalNativeBuild/
+
+# Operating System-Specific Files
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Miscellaneous
+*.log
+logs/
+*.tmp
+*.temp
+user-specific-config.json
